@@ -9,6 +9,7 @@ import org.model.entity.SgArticle;
  * @author makejava
  * @since 2023-10-01 23:43:04
  */
+
 public interface SgArticleDao extends BaseMapper<SgArticle> {
 
 }

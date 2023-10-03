@@ -114,8 +114,8 @@
               <option name="name" value="SgArticle" />
               <option name="preName" value="" />
               <option name="saveModelName" value="Raindrop-framework" />
-              <option name="savePackageName" value="org.model.dao" />
-              <option name="savePath" value="./Raindrop-framework/src/main/java/org/model/dao" />
+              <option name="savePackageName" value="" />
+              <option name="savePath" value="./Raindrop-framework/src/main/java" />
               <option name="templateGroupName" value="MybatisPlus" />
             </TableInfoDTO>
           </value>

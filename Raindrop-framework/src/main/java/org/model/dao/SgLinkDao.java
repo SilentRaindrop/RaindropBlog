@@ -1,7 +1,7 @@
 package org.model.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.model.entity.SgArticle;
+import org.apache.ibatis.annotations.Mapper;
 import org.model.entity.SgLink;
 
 /**
@@ -10,6 +10,7 @@ import org.model.entity.SgLink;
  * @author makejava
  * @since 2023-10-01 23:39:01
  */
+@Mapper
 public interface SgLinkDao extends BaseMapper<SgLink> {
 }
 

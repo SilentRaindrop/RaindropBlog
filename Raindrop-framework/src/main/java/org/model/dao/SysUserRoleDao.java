@@ -1,6 +1,7 @@
 package org.model.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 import org.model.entity.SysUserRole;
 
 /**
@@ -9,6 +10,7 @@ import org.model.entity.SysUserRole;
  * @author makejava
  * @since 2023-10-01 23:39:01
  */
+@Mapper
 public interface SysUserRoleDao extends BaseMapper<SysUserRole> {
 
 }
