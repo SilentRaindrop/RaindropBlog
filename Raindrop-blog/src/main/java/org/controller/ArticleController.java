@@ -21,6 +21,11 @@ public class ArticleController {
     @GetMapping("/list")
     public List<SgArticle> test(){
         //查询数据库的所有数据
+
         return sgArticleService.list();
+    }
+    @GetMapping("test")
+    public String test2() {
+        return "success";
     }
 }
