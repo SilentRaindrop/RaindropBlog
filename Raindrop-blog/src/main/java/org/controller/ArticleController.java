@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -21,7 +22,9 @@ public class ArticleController {
     @GetMapping("/list")
     public List<SgArticle> test(){
         //查询数据库的所有数据
+        List<Character> aa = new ArrayList<>();
 
+        aa.clear();
         return sgArticleService.list();
     }
     @GetMapping("test")

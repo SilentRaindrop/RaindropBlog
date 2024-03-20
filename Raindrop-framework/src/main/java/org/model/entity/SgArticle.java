@@ -1,8 +1,10 @@
 package org.model.entity;
 
-import java.util.Date;
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
+
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * 文章表(SgArticle)表实体类
@@ -11,6 +13,7 @@ import java.io.Serializable;
  * @since 2023-10-01 23:29:38
  */
 @SuppressWarnings("serial")
+@TableName("aaa")
 public class SgArticle extends Model<SgArticle> {
     
     private Long id;
